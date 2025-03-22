@@ -113,7 +113,7 @@ In some cases, you need to use this command to process the GTF file before runni
 
 ## MIT License
 
-Copyright (c) [year] [Full Name or Organization]
+Copyright (c) [2015] [Jiahao Li, Guojun Li, Ting yu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
