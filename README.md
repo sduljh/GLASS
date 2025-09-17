@@ -6,7 +6,7 @@ This tool is designed for training and testing a machine learning model with BAM
 
 ## Prerequisites
 
-Before running this script, you need to compile the C code that is part of this project. Follow the step to set up your environment:
+Before running this script, you need to follow the step to set up your environment:
 
 
 
@@ -102,6 +102,7 @@ grep -P '\btranscript_id\s+"[^"]+"' original.gtf > fixed.gtf
 ```
 
 In some cases, you need to use this command to process the GTF file before running gffcompare.
+
 
 
 
