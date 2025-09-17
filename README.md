@@ -6,18 +6,11 @@ This tool is designed for training and testing a machine learning model with BAM
 
 ## Prerequisites
 
-Before running this script, you need to compile the C code that is part of this project. Follow these steps to set up your environment:
+Before running this script, you need to compile the C code that is part of this project. Follow the step to set up your environment:
 
-### 1. Compile the C code
-First, navigate to the directory where the C code is located and compile it using `make`.
 
-```bash
-cd ./GLASS_code/C_code/src
-make release
-cd ../../..
-```
 
-### 2. Install Python Dependencies
+### Install Python Dependencies
 Ensure you have all necessary Python libraries installed. You may need to install dependencies such as `torch`, `psutil`, and others:
 
 ```bash
@@ -109,5 +102,6 @@ grep -P '\btranscript_id\s+"[^"]+"' original.gtf > fixed.gtf
 ```
 
 In some cases, you need to use this command to process the GTF file before running gffcompare.
+
 
 
